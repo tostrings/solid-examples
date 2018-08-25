@@ -1,0 +1,1 @@
+# ISP - Interface Segregation Principle
