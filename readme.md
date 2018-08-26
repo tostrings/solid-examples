@@ -15,9 +15,9 @@ Project to collect several examples to help any developer with all principles of
 Examples should follow this pattern:
 
 -  com
-  -  solid
-    -  initials principle (srp)
-      -  bad
-      -  good
+    -  solid
+        -  initials principle (srp)
+            -  bad
+            -  good
 
 Thank!
