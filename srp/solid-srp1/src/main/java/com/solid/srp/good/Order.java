@@ -2,7 +2,7 @@ package com.solid.srp.good;
 
 /**
  * 
- * This class has only responsibility, such as validating a coupon or how sending an email, this has 
+ * This class has only one responsibility, such as validating a coupon or how sending an email, this has 
  * been delegated to other class    
  * 
  * */
