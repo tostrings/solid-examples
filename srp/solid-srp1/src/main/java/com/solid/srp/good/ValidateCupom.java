@@ -1,4 +1,4 @@
-package br.com.cassunde.solid.good;
+package com.solid.srp.good;
 
 public class ValidateCupom {
 

@@ -1,4 +1,4 @@
-package br.com.cassunde.solid.bad;
+package com.solid.srp.bad;
 
 /**
  * 
