@@ -10,4 +10,14 @@ Project to collect several examples to help any developer with all principles of
 - Create readme.md with simple documentation of your example
 - Make a pull request 
 
+**Package Pattern**
+
+Examples should follow this pattern:
+
+-  com
+  -  solid
+    -  initials principle (srp)
+      -  bad
+      -  good
+
 Thank!
