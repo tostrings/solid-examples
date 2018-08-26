@@ -2,7 +2,7 @@
 
 Project to collect several examples to help any developer with all principles of SOLID.
 
-**To Contribute?**
+**How to Contribute?**
 
 - Make a fork this project
 - Choose a folder of principle
