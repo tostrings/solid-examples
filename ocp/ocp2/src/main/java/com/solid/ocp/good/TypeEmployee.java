@@ -4,18 +4,18 @@ public enum TypeEmployee {
 
 	BACKEND{
 		@Override
-		SalaryCalculator calc() {
+		Salary calculateNetSalary(double grossSalary) {
 			
-			return new BackEndSalaryCalculator();
+			return new BackEndSalary( grossSalary );
 		}
 	},
 	FONTEND{
 		@Override
-		SalaryCalculator calc() {
+		Salary calculateNetSalary(double grossSalary) {
 
-			return new FrontEndSalaryCalculator();
+			return new FrontEndSalary( grossSalary );
 		}
 	};
 	
-	abstract  SalaryCalculator calc();
+	abstract  Salary calculateNetSalary(double grossSalary);
 }

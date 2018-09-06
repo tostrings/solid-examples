@@ -1,17 +1,16 @@
 package com.solid.ocp.good;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class App {
 
 	public static void main( String[] args ){
         
-    	SalaryCalculator salaryFront = TypeEmployee.FONTEND.calc();
-        salaryFront.calculator();
-    	
-        System.out.println( salaryFront.getSalary() );
+		final List<Employee> Employees = Arrays.asList(new Employee("Bessa", TypeEmployee.BACKEND, 2000),new Employee("Maciel", TypeEmployee.FONTEND, 2000) );
         
-        SalaryCalculator salaryBack = TypeEmployee.BACKEND.calc();
-        salaryBack.calculator();
-    	
-        System.out.println( salaryBack.getSalary() );
+		for (Employee employee : Employees) {
+			System.out.println(employee.netSalary());
+		}
     }
 }
